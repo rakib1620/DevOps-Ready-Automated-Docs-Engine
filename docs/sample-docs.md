@@ -1,4 +1,3 @@
-# 🐧 DevOps Automated Engine Test
 
 # 1. Introduction
 
