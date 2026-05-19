@@ -1,0 +1,20 @@
+name: CI - Markdown Lint Check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Run Markdown Lint
+      uses: davidanson/markdownlint-cli2-action@v17
+      with:
+        globs: "docs/**/*.md"
