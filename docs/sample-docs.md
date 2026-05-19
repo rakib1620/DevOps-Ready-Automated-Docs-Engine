@@ -1,5 +1,4 @@
-
-# 1. Introduction
+# My Code Intro
 
 This is a clean test for our automation framework.
 
